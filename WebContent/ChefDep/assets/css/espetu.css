@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@keyframes slide {
+
+0% {
+	left: 0;
+}
+
+10% {
+	left: 0;
+}
+
+20% {
+	left: -100%;
+}
+
+30% {
+    left: -100%;
+
+}
+
+40% {
+	left: -200%;
+
+}
+
+50% {
+	left: -200%;
+}
+
+60% {
+	left: -300%;
+}
+
+70% {
+	left: -300%;
+}
+80% {
+	left: -400%;
+
+}
+90% {
+	left: -400%;
+
+}
+
+100% {
+	left: 0%;
+
+}
+
+
+
+}
+*{
+margin: 0;
+padding: 0;
+}
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+    position: relative;
+	width: 500%;
+	margin: 0;
+	
+	animation: 15s slide infinite; 
+
+}
